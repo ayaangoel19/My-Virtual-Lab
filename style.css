@@ -19,18 +19,24 @@
 .navbar ul{
     list-style-type: none;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 }
 
 .logo{
     float: left;
+    padding: 5px;
 }
 
 .nav-list{
     font-size: 2vw;
     padding: 0 20px;
-    margin: 15px;    
+    margin: 15px;   
+}
+.nav-list a:hover{   
+    text-decoration: underline;
+    text-underline-offset: 2.5vh;
+    text-decoration-color: #681792;  
 }
 
 .nav-list a{
@@ -41,14 +47,26 @@
 .front{
     background-image: linear-gradient(to right, #1d3839, #214f51, #22676a, #1f8184, #179b9f);
     height: 85vh;
-    padding: 20vh 5vw 5vh 5vw;
+    padding: 15vh 5vw 5vh 5vw;
 }
 .front img{
     width: 45%;
     height: 85vh;
     float: right;
 }
-
+.animation{
+    animation-name: fade;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-delay: 0.3s;
+    opacity: 0;
+}
+@keyframes fade{
+    0% {opacity: 0;}
+    100% {opacity: 100%;}
+}
 .front h1{
     color: white;
     font-family: 'Baloo 2', cursive;
@@ -60,6 +78,21 @@
     color: white;
     font-size: 2vw;
     font-family: 'Baloo 2', cursive;
+}
+.animation button{
+    background-color: white;
+    font-family: 'Baloo 2', cursive;
+    padding: 7px;
+    font-size: 2vw;
+    border: 1px white solid;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 34px;
+    margin-left: 230px;
+}
+.animation button a{
+    text-decoration: none;
+    color: black;
 }
 
 .simulation-shortcut{
