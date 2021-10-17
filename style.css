@@ -36,9 +36,9 @@ header ul{
 }
 section{
     background-image: linear-gradient(to right, #1d3839, #214f51, #22676a, #1f8184, #179b9f);
-    padding: 20px;
     height: 85vh;
-    padding-top: 15vh;
+    padding: 20vh 5vw 5vh 5vw;
+
 }
 section img{
     width: 45%;
@@ -51,4 +51,9 @@ section h1{
     font-size: 4.5vw;
     margin-top: 20vh;
     margin-left: 2vw;
+}
+.quote{
+    color: white;
+    font-size: 2vw;
+    font-family: 'Baloo 2', cursive;
 }
