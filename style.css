@@ -22,6 +22,10 @@ header ul{
     justify-content: center;
 }
 
+.logo{
+    float: left;
+}
+
 .nav-list{
     font-size: 2vw;
     padding: 0 20px;
@@ -33,29 +37,26 @@ header ul{
     color: black;
     font-family: 'Baloo Paaji 2', cursive;
 }
-section{
+.front{
     background-image: linear-gradient(to right, #1d3839, #214f51, #22676a, #1f8184, #179b9f);
-    padding: 20px;
     height: 85vh;
-    padding-top: 15vh;
+    padding: 20vh 5vw 5vh 5vw;
 }
-section img{
+.front img{
     width: 45%;
     height: 85vh;
     float: right;
 }
-section h1{
+
+.front h1{
     color: white;
     font-family: 'Baloo 2', cursive;
     font-size: 4.5vw;
     margin-top: 20vh;
     margin-left: 2vw;
-    animation-name: example;
-    animation-duration: 2s;
-    animation-timing-function: linear;
-    animation-iteration-count: 1;
 }
-@keyframes example{
-    0% {opacity: 0%;}
-    100% {opacity: 100%;}
+.quote{
+    color: white;
+    font-size: 2vw;
+    font-family: 'Baloo 2', cursive;
 }
