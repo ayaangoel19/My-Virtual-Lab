@@ -98,7 +98,7 @@
 
 .simulation-shortcut{
     font-family: 'Baloo 2', cursive;
-    height: 105vh;
+    height: 111vh;
 }
 
 .simulation-shortcut-header{
@@ -121,7 +121,6 @@
 
 .box-header{
     font-size: 2.5vw;
-    margin: 15px 130px ;
 }
 
 .box-para{
