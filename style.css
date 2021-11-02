@@ -147,3 +147,26 @@
     margin: 2vh 0;
     font-size: 1rem;
 }
+
+.vertical { 
+    border-left: 2px solid black; 
+    height: 97vh; 
+    margin-left: 10px;
+} 
+
+.clients{
+    padding: 20px 0 0 0;
+    margin: 10px 0 0 0 ;
+    font-size: 35px;
+}
+
+.clients-para{
+    font-family: 'Baloo 2', cursive;
+    font-size: 23px;
+    text-align: center;
+    margin: 50px 100px;
+}
+
+u{
+    text-decoration-color: #681792; 
+}
