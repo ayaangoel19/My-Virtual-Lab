@@ -211,7 +211,7 @@ footer h2{
     font-family: 'Baloo 2', cursive;
     font-size: 65px;    
     font-size: 50px;
-    position: absolute;
+    /* position: absolute; */
     margin: 35px 531px;
 }
 .fa{
@@ -242,3 +242,11 @@ footer h2{
 .sup{
     margin: 150px 100px;
 }  
+
+.blog-section{
+    margin-top: 150px;
+}
+
+.blog-div{
+    
+}
