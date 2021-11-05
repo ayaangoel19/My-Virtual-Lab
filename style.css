@@ -205,11 +205,11 @@ u{
 }
 footer{
     background-color: #179b9f;
-    height: 400px;
+    /* height: 400px; */
 }
 footer h2{
     font-family: 'Baloo 2', cursive;
-    font-size: 65px;    
+    /* font-size: 65px;     */
     font-size: 50px;
     /* position: absolute; */
     margin: 35px 531px;
@@ -245,8 +245,9 @@ footer h2{
 
 .blog-section{
     margin-top: 150px;
+    float: right;
 }
 
 .blog-div{
-    
+    /* display: flex; */
 }
