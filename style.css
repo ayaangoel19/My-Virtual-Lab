@@ -205,13 +205,17 @@ u{
 }
 footer{
     background-color: #179b9f;
-    /* height: 400px; */
+    height: 400px;  
+    left:0px;
+    bottom:0px;
+    width:100%;
 }
 footer h2{
     font-family: 'Baloo 2', cursive;;    
     font-size: 50px;    
-    padding: 22px;
-    margin: 0 490px;
+    padding: 22px ;
+    text-align: center;
+    /* margin: 0 490px; */
 }
 .fa{
     padding: 20px;
@@ -233,14 +237,17 @@ footer h2{
 .fa-twitter {
     background: #55ACEE;
     color: white;
+    /* position: absolute; */
 }
 .fa-instagram {
     background: #125688;
     color: white;
 }
 .sup{
-    margin: 0 100px;
-    padding: 200px;
+    margin-top: 20px;
+    padding-left: 80px;
+    /* padding-top: 1000px; */
+    text-align: center;
 }  
 
 .blog-section{
