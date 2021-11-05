@@ -205,13 +205,13 @@ u{
 }
 footer{
     background-color: #179b9f;
-    /* height: 400px; */
+   height: 400px;
 }
 footer h2{
     font-family: 'Baloo 2', cursive;;    
     font-size: 50px;    
     padding: 22px;
-    margin: 0 490px;
+    margin: 0 550px;
 }
 .fa{
     padding: 20px;
@@ -228,7 +228,7 @@ footer h2{
 .fa-facebook {
     background: #3B5998;
     color: white;
-    margin-left: 570px;
+    margin-left: 630px;
 }
 .fa-twitter {
     background: #55ACEE;
@@ -238,9 +238,9 @@ footer h2{
     background: #125688;
     color: white;
 }
-.sup{
-    margin: 0 100px;
-    padding: 200px;
+.sup{]
+    float: bottom;
+    bottom: 100;
 }  
 
 .blog-section{
