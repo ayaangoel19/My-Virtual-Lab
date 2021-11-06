@@ -204,8 +204,8 @@ u{
     margin-left: 10px;
 }
 footer{
-    background-color: #179b9f;
-    height: 400px;  
+    background-color: #a8ffaa;
+    height: 350px;  
     left:0px;
     bottom:0px;
     width:100%;
@@ -233,12 +233,11 @@ footer h2{
 .fa-facebook {
     background: #3B5998;
     color: white;
-    margin-left: 630px;
+    margin-left: 650px;
 }
 .fa-twitter {
     background: #55ACEE;
     color: white;
-    /* position: absolute; */
 }
 .fa-instagram {
     background: #125688;
@@ -246,16 +245,28 @@ footer h2{
 }
 
 .sup{
-    margin-top: 20px;
-    padding-left: 80px;
-    /* padding-top: 1000px; */
+    margin-top: -23px;
+    padding: 47px;
     text-align: center;
+    font-family: "Baloo 2", cursive;
 }  
+
+.sup a{
+    text-decoration: none;
+    color: black;
+    opacity: 0.7;
+    font-size: 18px;
+}
+.sup a:hover{
+    opacity: 1;
+    text-decoration: underline;
+}
 
 .blog-image{
     height: 30vh;
 }
 
+ 
 .blog-section{
     margin: 120px 120px -50px 120px;
     display: flex;
@@ -270,9 +281,34 @@ footer h2{
     color: black;
 }
 
+.res{
+    margin-top: 10px;
+    display: inline;
+    margin-left: 680px;
+    justify-content: center;
+    font-family: "Baloo 2", cursive;
+    opacity: 0.7;
+    font-size: 18px;
+}
+.num{
+    display: flex;
+    float: right;
+    font-family: "Baloo 2", cursive;
+}
+.num p{
+    font-size: 25px;
+    margin-right: 10px;
+    margin-top: 6px;
+}
+.num img{
+    font-size: 30px;
+    /* margin-top: 20px; */
+}
+
 .blog-div{
     margin-left: 40px;
 }
+
 .blog-button{
     border: none;
     font-family: "Baloo 2", cursive;
