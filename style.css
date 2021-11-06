@@ -250,11 +250,15 @@ footer h2{
     text-align: center;
 }  
 
+.blog-image{
+    height: 100px;
+}
+
 .blog-section{
     margin-top: 150px;
+    display: flex;
     float: right;
 }
 
 .blog-div{
-    /* display: flex; */
 }
