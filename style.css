@@ -212,10 +212,11 @@ footer{
 }
 footer h2{
     font-family: 'Baloo 2', cursive;;    
-    font-size: 50px;    
+    font-size: 50px;
+    padding: 22px;
+    margin: 0 550px;
     padding: 22px ;
-    text-align: center;
-    /* margin: 0 490px; */
+    text-align: center;1
 }
 .fa{
     padding: 20px;
@@ -232,7 +233,7 @@ footer h2{
 .fa-facebook {
     background: #3B5998;
     color: white;
-    margin-left: 570px;
+    margin-left: 630px;
 }
 .fa-twitter {
     background: #55ACEE;
@@ -243,6 +244,7 @@ footer h2{
     background: #125688;
     color: white;
 }
+
 .sup{
     margin-top: 20px;
     padding-left: 80px;
