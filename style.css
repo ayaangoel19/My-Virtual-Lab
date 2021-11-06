@@ -273,3 +273,14 @@ footer h2{
 .blog-div{
     margin-left: 40px;
 }
+.blog-button{
+    border: none;
+    font-family: "Baloo 2", cursive;
+    background-color: blue;
+    padding: 3px;
+    float: right;
+    margin-right: 10px;
+}
+.blog-button a{
+    color: white;
+}
