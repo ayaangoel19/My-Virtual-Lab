@@ -250,6 +250,7 @@ footer h2{
     text-align: center;
     font-family: "Baloo 2", cursive;
 }  
+
 .sup a{
     text-decoration: none;
     color: black;
@@ -260,10 +261,26 @@ footer h2{
     opacity: 1;
     text-decoration: underline;
 }
-.blog-section{
-    margin-top: 150px;
-    float: right;
+
+.blog-image{
+    height: 30vh;
 }
+
+ 
+.blog-section{
+    margin: 120px 120px -50px 120px;
+    display: flex;
+    float: right;
+    box-shadow: 0px 12px 18px -6px rgb(0 0 0 / 50%);
+    font-family: 'Baloo 2', cursive;
+    font-size: 18px;  
+}
+
+.blog-button a{
+    text-decoration: none;
+    color: black;
+}
+
 .res{
     margin-top: 10px;
     display: inline;
@@ -286,4 +303,21 @@ footer h2{
 .num img{
     font-size: 30px;
     /* margin-top: 20px; */
+}
+
+.blog-div{
+    margin-left: 40px;
+}
+
+.blog-button{
+    border: none;
+    font-family: "Baloo 2", cursive;
+    background-color: blue;
+    padding: 3px;
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.blog-button a{
+    color: white;
 }
