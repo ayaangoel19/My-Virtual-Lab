@@ -1,0 +1,33 @@
+@media screen and (max-width:719px){
+.front{
+    width: 215%;
+    height: 148vh;
+    padding: 17vh 5vw 0vh 5vw;
+}
+.front img{
+    width: 82%;
+    height: 136vh;
+    float: left;
+    margin-left: 67px;
+}
+aside{
+    position: absolute;
+    width: 215%;
+    margin-top: 90px;
+}
+aside h1{
+    font-size: 23vw !important;
+    margin-left: 6vw !important;
+}
+aside p{
+    font-size: 17vw !important;
+    margin-left: 53px;
+}
+aside button{
+    margin-left: 190px !important;
+}
+aside button a{
+    display: block;
+    font-size: 47px;
+}
+}
