@@ -346,8 +346,28 @@ footer h2{
 
 .tour-heading{
     margin-top: 100px;
+    color: white;
 }
 
 .science-heading{
     margin: 50px;
+    color: white;
+}
+
+.box-section{
+    color: #706c90; 
+    border: 1px solid white;
+    margin-left: 50px;
+    width: 320px;
+    /* background-color: green; */
+    padding: 40px;
+    justify-content: center;
+}
+
+.box-img{
+    width: 25vw;
+}
+
+.box-section-2{
+    
 }
