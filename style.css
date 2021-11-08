@@ -313,7 +313,6 @@ footer h2{
 .blog-image{
     height: 30vh;
     width: 20vw;
-    margin-top: 50px;
     vertical-align: middle;
 }
 .icon{
@@ -367,9 +366,13 @@ footer h2{
 .num img{
     font-size: 30px;
 }
-
+.navbar img{
+    position: absolute;
+    top: 5px;
+}
 .blog-div{
     margin-left: 40px;
+    font-size: 25px;
 }
 
 .blog-button{
