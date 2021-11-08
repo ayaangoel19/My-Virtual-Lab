@@ -42,11 +42,11 @@ body{
     border: white 2px solid;
 }
 .backside p {
-    font-size: 23px;
+    font-size: 1.1em;
     text-align: center;
 }
 .frontside img{
-    width: 26.5vw    ;
+    width: 26.5vw;
     height: 35vh;
 }
 .backside{
