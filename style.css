@@ -120,6 +120,21 @@ nav ul {
   padding-top: 134px;
   font-size: 4.5vw;
 }
+.box-section{
+    background-color: black;
+    display: block;
+}
+.all-box a{
+    color: white;
+    text-decoration: none;
+}
+.all-box{
+    display: block;
+}
+.test-heading{
+    display: flex;
+    margin: 0 400px;
+}
 .quote {
   color: white;
   font-size: 2vw;
@@ -176,7 +191,7 @@ nav ul {
 }
 
 .all-box {
-  display: flex;
+  display: block;
   margin-top: 30px;
 }
 
@@ -184,7 +199,9 @@ nav ul {
   height: 30vh;
   background-color: rgb(207, 207, 207);
 }
-
+.all{
+    display: flex;
+}
 .table-btn a {
   text-decoration: none;
   color: black;
@@ -423,13 +440,17 @@ footer h2 {
 .box-section {
   color: #706c90;
   border: 1px solid white;
-  margin-left: 50px;
+  margin: 0 50px 40px 80px;
   width: 288px;
   /* background-color: green; */
   padding: 28px;
   justify-content: center;
+  height: 40vh;
 }
-
+.tour-section{
+    font-size: 30px;
+    margin: 0 446px 0 -264px;
+}
 .box-img {
-  width: 23vw;
+  width: 19vw;
 }
