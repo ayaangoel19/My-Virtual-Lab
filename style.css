@@ -66,6 +66,7 @@ body{
 .front{
     background-image: url(back.jpg);
     background-size: 100%;
+    margin-top: 11vh;
     background-repeat: no-repeat;
     height: 85vh;
     /* color: black; */
@@ -99,20 +100,19 @@ body{
 .front h1{
     z-index: 999;
     color: white;
-    left: 520px;
     display: flex;
     justify-content: center;
     /* float: right; */
     padding-top: 134px;
     font-size: 4.5vw;
-    margin-left: 2vw;
 }
 .quote{
     color: white;
     font-size: 2vw;
-    position: absolute;
-    top: 472px;
-    left: 507px;
+    display: flex;
+    justify-content: center;
+    /* top: 472px; */
+    /* left: 507px; */
 }
 .animation button{
     background-color: white;
@@ -121,11 +121,8 @@ body{
     font-size: 2vw;
     border-radius: 5px;
     font-weight: bold;
-    margin-top: 34px;
-    margin-left: 320px;
-    position: absolute;
-    top: 535px;
-    left: 578px;
+    display: flex;
+    margin: auto;
 }
 .animation button a{
     text-decoration: none;
@@ -369,6 +366,7 @@ footer h2{
 .navbar img{
     position: absolute;
     top: 5px;
+    height: 10vh;
 }
 .blog-div{
     margin-left: 40px;
