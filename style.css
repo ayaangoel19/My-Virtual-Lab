@@ -18,6 +18,7 @@ body {
 }
 
 .burger {
+  float: left;
   display: none;
   position: absolute;
   cursor: pointer;
@@ -164,10 +165,7 @@ nav ul {
   width: 30vw;
   padding-left: 20px;
 }
-.boxy {
-  border-right: 3px white solid;
-  padding-right: 15px;
-}
+
 .box-header {
   font-size: 2.5vw;
 }
@@ -379,13 +377,15 @@ footer h2 {
   font-size: 30px;
 }
 .navbar img {
-  position: absolute;
+    float: left;
   top: 5px;
   height: 10vh;
 }
 .blog-div {
   margin-left: 40px;
   font-size: 25px;
+  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .blog-button {
