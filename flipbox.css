@@ -18,9 +18,11 @@ body{
     transition: transform 0.8s;
     transform-style: preserve-3d;
 }
+
 .flipbox:hover .flipinner{
     transform: rotateX(180deg);
 }
+
 .frontside{
     position: absolute;
     width: 100%;
@@ -46,7 +48,7 @@ body{
     text-align: center;
 }
 .frontside img{
-    width: 26.5vw;
+    width: 25.1vw;
     height: 35vh;
 }
 .backside{
