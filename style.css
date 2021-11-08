@@ -253,9 +253,9 @@ u{
 }
 footer{
     background-color: #a8ffaa;
-    height: 350px;  
-    left:0px;
-    bottom:0px;
+    height: 40px;
+    justify-content: center;
+    display: flex;
     width:100%;
 }
 footer h2{
@@ -388,8 +388,24 @@ footer h2{
 
 .tour-heading{
     margin-top: 100px;
+    color: white;
 }
 
 .science-heading{
     margin: 50px;
+    color: white;
+}
+
+.box-section{
+    color: #706c90; 
+    border: 1px solid white;
+    margin-left: 50px;
+    width: 288px;
+    /* background-color: green; */
+    padding: 28px;
+    justify-content: center;
+}
+
+.box-img{
+    width: 23vw;
 }
