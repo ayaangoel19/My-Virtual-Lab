@@ -4,7 +4,7 @@ body{
 .flipbox{
     perspective: 1000px;
     margin: 47px 50px 0 50px;
-    height: 50vh;
+    height: 51vh;
     width: 27.8vw;
 
 }
@@ -31,7 +31,7 @@ body{
 }
 .frontside h1{
     font-size: 55px;
-    margin-left: 20px;
+    margin-left: 5px;
 }
 .backside{
     position: absolute;
@@ -42,12 +42,12 @@ body{
     border: white 2px solid;
 }
 .backside p {
-    font-size: 30px;
+    font-size: 23px;
     text-align: center;
 }
 .frontside img{
-    width: 569px    ;
-    height: 372px;
+    width: 26.5vw    ;
+    height: 35vh;
 }
 .backside{
     transform: rotateX(180deg);
