@@ -64,7 +64,9 @@ body{
     font-size: 51px;
 }
 .front{
-    /* background-image: linear-gradient(to right, #1d3839, #214f51, #22676a, #1f8184, #179b9f); */
+    background-image: url(back.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
     height: 85vh;
     /* color: black; */
     /* padding: 15vh 5vw 5vh 5vw; */
@@ -96,13 +98,13 @@ body{
 }
 .front h1{
     z-index: 999;
-    position: absolute;
-    top: 146px;
     color: white;
     left: 520px;
+    display: flex;
+    justify-content: center;
     /* float: right; */
+    padding-top: 134px;
     font-size: 4.5vw;
-    margin-top: 20vh;
     margin-left: 2vw;
 }
 .quote{
