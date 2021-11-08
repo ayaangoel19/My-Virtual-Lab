@@ -148,6 +148,8 @@ nav ul {
   padding: 7px;
   /* color: bk; */
   font-size: 2vw;
+  /* position: absolute; */
+  text-align: center;
   border-radius: 5px;
   font-weight: bold;
   display: flex;
@@ -189,8 +191,8 @@ nav ul {
   font-size: 1.4vw;
 }
 
-.all-box {
-  display: block;
+.all-boxw {
+  display: flex;
   margin-top: 30px;
 }
 
@@ -350,6 +352,11 @@ footer h2 {
   top: 2vh;
 }
 
+.tour-image{
+    background-color: white;
+    height: 210px;
+}
+
 .blog-section {
   margin: 120px 120px -50px 120px;
   display: flex;
@@ -402,7 +409,8 @@ footer h2 {
   margin-left: 40px;
   font-size: 25px;
   overflow-x: hidden;
-  overflow-y: hidden;
+    overflow-y: hidden;
+
 }
 
 .blog-button {
