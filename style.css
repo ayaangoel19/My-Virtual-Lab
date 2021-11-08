@@ -364,7 +364,10 @@ footer h2{
 .num img{
     font-size: 30px;
 }
-
+.navbar img{
+    position: absolute;
+    top: 5px;
+}
 .blog-div{
     margin-left: 40px;
     font-size: 25px;
