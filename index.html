@@ -10,12 +10,13 @@
     <link rel="icon" href="icon.jpg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="flipbox.css">
 </head>
 
 <body>
     <header class="navbar">
-        <img src="Screenshot 2021-10-18 000130.png" alt="" class="logo">
         <img class="icon" src="good icon.png" alt="">
+        <p class="del">DelTech</p>
         <ul>
             <p class="nav-list"><a href="index.html">Home</a></p>
             <p class="nav-list"><a href="tour.html">Virtual Tour</a></p>
@@ -36,53 +37,65 @@
         <div class="simulation-shortcut-header"> Fields <u>of Del</u>Tech
         </div>
         <div class="all-box">
-            <div class="box">
-                <img src="chem1.jpeg" alt="" class="chem-img">
-                <div class="box-heading">
-                    <h1 class="box-header">CHEMISTRY</h1>
+            <div class="flipbox chem">
+                <div class="flipinner">
+                    <div class="frontside">
+                        <img src="chem1.jpeg" alt="">
+                        <h1>Chemistry</h1>
+                    </div>
+                    <div class="backside">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque reiciendis iusto fuga
+                            modi quasi ipsum dolorem cumque vel nesciunt minima. Eligendi ipsa nulla excepturi, unde animi
+                            nesciunt nobis odio libero voluptate velit dolores suscipit accusamus modi. Esse animi nisi optio
+                            aperiam alias molestias eos voluptatibus ullam, accusamus officiis eius unde.</p>
+                    </div>
                 </div>
-                <p class="box-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque reiciendis iusto fuga
-                    modi quasi ipsum dolorem cumque vel nesciunt minima. Eligendi ipsa nulla excepturi, unde animi
-                    nesciunt nobis odio libero voluptate velit dolores suscipit accusamus modi. Esse animi nisi optio
-                    aperiam alias molestias eos voluptatibus ullam, accusamus officiis eius unde.</p>
             </div>
-            <div class="box">
-                <img src="phy1.jpeg" alt="" class="chem-img">
-                <div class="box-heading">
-                    <h1 class="box-header">PHYSICS</h1>
+            <div class="flipbox">
+                <div class="flipinner">
+                    <div class="frontside">
+                        <img src="phy1.jpeg" alt="">
+                        <h1>Physics</h1>
+                    </div>
+                    <div class="backside">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque reiciendis iusto fuga
+                            modi quasi ipsum dolorem cumque vel nesciunt minima. Eligendi ipsa nulla excepturi, unde animi
+                            nesciunt nobis odio libero voluptate velit dolores suscipit accusamus modi. Esse animi nisi optio
+                            aperiam alias molestias eos voluptatibus ullam, accusamus officiis eius unde.</p>
+                    </div>
                 </div>
-                <p class="box-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque reiciendis iusto fuga
-                    modi quasi ipsum dolorem cumque vel nesciunt minima. Eligendi ipsa nulla excepturi, unde animi
-                    nesciunt nobis odio libero voluptate velit dolores suscipit accusamus modi. Esse animi nisi optio
-                    aperiam alias molestias eos voluptatibus ullam, accusamus officiis eius unde.</p>
             </div>
-            <div class="box">
-                <img src="bio1.jpg" alt="" class="chem-img">
-                <div class="box-heading">
-                    <h1 class="box-header">BIOLOGY
-                    </h1>
+            <div class="flipbox">
+                <div class="flipinner">
+                    <div class="frontside">
+                        <img src="bio1.jpg" alt="">
+                        <h1>Biology</h1>
+                    </div>
+                    <div class="backside">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque reiciendis iusto fuga
+                            modi quasi ipsum dolorem cumque vel nesciunt minima. Eligendi ipsa nulla excepturi, unde animi
+                            nesciunt nobis odio libero voluptate velit dolores suscipit accusamus modi. Esse animi nisi optio
+                            aperiam alias molestias eos voluptatibus ullam, accusamus officiis eius unde.</p>
+                    </div>
                 </div>
-                <p class="box-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque reiciendis iusto fuga
-                    modi quasi ipsum dolorem cumque vel nesciunt minima. Eligendi ipsa nulla excepturi, unde animi
-                    nesciunt nobis odio libero voluptate velit dolores suscipit accusamus modi. Esse animi nisi optio
-                    aperiam alias molestias eos voluptatibus ullam, accusamus officiis eius unde.</p>
             </div>
         </div>
     </section>
 
     <section class="happy-clients">
         <div class="clients simulation-shortcut-header">Hap<u>py Clie</u>nts</div>
-        <article class="clients-para"><i>"I found DelTech Virtual Lab to be very fascinating and unique"</i></article>
+        <article class="clients-para"><i>"I found DelTech Virtual Lab to be very fascinating and unique!"</i></article>
     </section>
 
     <section class="blogs">
         <p class="latest-blogs-header simulation-shortcut-header">Lat<u>est Bl</u>ogs</p>
         <div class="latest-blogs">
+            <a href="">
             <div class="blogs-box">
                 <img src="blog-1.jpg" alt="">
-                <h1 class="blog-header">ARTIFICIAL INTELLIGENCE
-                    AI Generates Hypotheses Human Scientists Have Not Thought Of</h1>
-                <p class="blog-para"><i>Electric vehicles have the potential to substantially reduce carbon emissions,
+                <h1 class="blog-header">Artificial Intelligence
+                    AI Generates Hypotheses Scientists Have Not Thought</h1>
+                <p class="blog-para">Electric vehicles have the potential to substantially reduce carbon emissions,
                         but car companies are running out of materials to make batteries. One crucial component, nickel,
                         is projected to cause supply shortages as early as the end of this year. Scientists recently
                         discovered four new materials that could potentially help—and what may be even more intriguing
@@ -92,12 +105,14 @@
 
                         Creating hypotheses has long been a purely human domain. Now, though, scientists are beginning
                         to ask machine learning to produce original insights. They are designing neural networks (a type
-                        of machine-le........</i></p>
+                        of machine-le........</p>
             </div>
+        </a>
+        <a href="">
             <div class="blogs-box">
                 <img src="blog-3.jpg" alt="">
                 <h1 class="blog-header">Vapor Storms Are Threatening People and Property</h1>
-                <p class="blog-para"><i>The summer of 2021 was a glaring example of what disruptive weather will look
+                <p class="blog-para">The summer of 2021 was a glaring example of what disruptive weather will look
                         like in a warming world. In mid-July, storms in western Germany and Belgium dropped up to eight
                         inches of rain in two days. Floodwaters ripped buildings apart and propelled them through
                         village streets. A week later a year’s worth of rain—more than two feet—fell in China’s Henan
@@ -106,12 +121,14 @@
                         inside flooding subway cars, straining their heads toward the ceiling to reach the last pocket
                         of air above the quickly rising water. In mid-August a sharp kink in the jet stream brought
                         torrential storms to Tennessee that dropped an incredible 17 inches of rain in just 24 hours;
-                        catastrophic flooding kil....</i></p>
+                        catastrophic flooding kil....</p>
             </div>
+        </a>
+        <a href="">
             <div class="blogs-box">
                 <img src="blog-2.jpg" alt="">
                 <h1 class="blog-header">Could Gravity’s Quantum Origins Explain Dark Energy?</h1>
-                <p class="blog-para"><i>For decades cosmologists have wondered about the nature of dark energy, the
+                <p class="blog-para">For decades cosmologists have wondered about the nature of dark energy, the
                         proposed antigravitational force behind the accelerating expansion of the universe. Since the
                         1990s astronomers have observed that the universe is not only expanding, but also increasing its
                         expansion rate. This is very strange, because the collective gravitational pull of all the
@@ -122,8 +139,9 @@
                         explained this phenomenon; it remains a cosmic enigma, and its true, as-yet-unknown nature will
                         profoundly shape the ultimate fate of our universe.
 
-                        Now, however, a new theoretic....</i></p>
+                        Now, however, a new theoretic....</p>
             </div>
+        </a>
         </div>
     </section>
     <footer>
